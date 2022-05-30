@@ -1118,7 +1118,7 @@ main {
           align-items: center;
   height: 600px;
   width: 80%;
-  background-color: black;
+  background-color: white;
   border-radius: 8px;
 }
 
@@ -1126,7 +1126,7 @@ main {
   width: 38%;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 20px;
-  color: white;
+  color: black;
 }
 
 .alinMail {
@@ -1137,7 +1137,7 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-flow: column wrap;
           flex-flow: column wrap;
-  color: white;
+  color: black;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
