@@ -1,0 +1,2097 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-image: url(../images/right-guitar-fondo.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header {
+  width: 100%;
+  height: 150px;
+  background-color: black;
+  padding-left: 25px;
+}
+
+.contenidoHeader {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contenedorWhatsapp {
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 10px;
+  margin-bottom: 10px;
+  margin-right: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.whatsapp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  background-color: #25D366;
+}
+
+.botonWhatsapp {
+  color: white;
+  font-size: 35px;
+}
+
+.logoTitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  width: 50%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 15px;
+}
+
+.logoDhe {
+  background-color: none;
+  width: 20%;
+  margin-right: 10px;
+}
+
+.h1 {
+  font-size: 28px;
+  margin-left: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: aliceblue;
+  width: 30%;
+  -webkit-transform: translate(-100%);
+          transform: translate(-100%);
+}
+
+.columnaNavbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50%;
+  height: 100%;
+}
+
+.navbar {
+  z-index: 999999999;
+}
+
+.navbar-nav {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  list-style: none;
+  -webkit-transform: translate(0px, -6px);
+          transform: translate(0px, -6px);
+}
+
+.dropnav {
+  height: 60px;
+}
+
+.sections {
+  color: aliceblue;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.sections:hover {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: crimson;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 150px;
+  background-color: black;
+  padding-left: 40px;
+}
+
+main {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.fb {
+  color: white;
+  font-size: 30px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.fb:hover {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: #3b5998;
+  font-size: 35px;
+}
+
+.insta {
+  color: white;
+  font-size: 30px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.insta:hover {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 35px;
+}
+
+.yt {
+  color: white;
+  font-size: 30px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.yt:hover {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: #c4302b;
+  font-size: 35px;
+}
+
+.wp {
+  color: white;
+  font-size: 30px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.wp:hover {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: #25d366;
+  font-size: 35px;
+}
+
+.mail {
+  color: white;
+  font-size: 30px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.mail:hover {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: crimson;
+  font-size: 35px;
+}
+
+.logoCompleto {
+  background-color: none;
+  width: 60%;
+}
+
+.alinFooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 35%;
+}
+
+.parrafoFooter {
+  color: white;
+  white-space: wrap;
+}
+
+.alinFooterLista {
+  width: 100%;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  list-style: none;
+  color: white;
+}
+
+.videoPresentación {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 50px;
+}
+
+.videoPresentación1 {
+  width: 40%;
+  height: 345px;
+}
+
+.imagenEstuche {
+  width: 40%;
+  border-radius: 8px;
+  -webkit-filter: opacity(90%);
+          filter: opacity(90%);
+  -webkit-filter: contrast(80%);
+          filter: contrast(80%);
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+}
+
+.alinParrafo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 50px;
+}
+
+.parrafoIndex {
+  width: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.parrafoIndexSolo {
+  width: 25%;
+  color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+
+.jamasTermina {
+  font-size: 36px;
+}
+
+.alinArtGuitarras {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: transparent;
+  margin-top: 50px;
+}
+
+.articuloGuitarras1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 70%;
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+
+.artGuitarrasImg1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.alinImgGuitarras1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  width: 40%;
+}
+
+.imgGuitarras1 {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.artGuitarras1 {
+  width: 40%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  background-color: white;
+  border-radius: 8px;
+  padding: 15px;
+}
+
+.alinFilaGuitarras {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+  height: 350px;
+  background-color: transparent;
+  margin-bottom: 50px;
+}
+
+.imgTexto1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 300px;
+  width: 28%;
+  background-image: url(../images/madera1-v.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+}
+
+.maderas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  height: 300px;
+  width: 100%;
+  border-radius: 8px;
+  -webkit-transform: translate(0px, 8px);
+          transform: translate(0px, 8px);
+}
+
+.txtMaderas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.411);
+  text-align: center;
+  border-radius: 8px;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: aliceblue;
+  padding: 70px;
+}
+
+.txtMaderas:hover {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  background-color: rgba(0, 0, 0, 0.527);
+  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
+}
+
+.imgTexto2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: aliceblue;
+  height: 300px;
+  width: 28%;
+  background-image: url(../images/diapason-madera-v.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+}
+
+.herramientas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  height: 300px;
+  width: 100%;
+  border-radius: 8px;
+  -webkit-transform: translate(0px, 8px);
+          transform: translate(0px, 8px);
+}
+
+.txtHerramientas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.411);
+  text-align: center;
+  border-radius: 8px;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: aliceblue;
+  padding: 70px;
+}
+
+.txtHerramientas:hover {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  background-color: rgba(0, 0, 0, 0.527);
+  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
+}
+
+.imgTexto3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: aliceblue;
+  height: 300px;
+  width: 28%;
+  background-image: url(../images/madera-caja-v.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+}
+
+.verificacion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  height: 300px;
+  width: 100%;
+  border-radius: 8px;
+  -webkit-transform: translate(0px, 8px);
+          transform: translate(0px, 8px);
+}
+
+.txtVerificacion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.411);
+  text-align: center;
+  border-radius: 8px;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: aliceblue;
+  padding: 70px;
+}
+
+.txtVerificacion:hover {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  background-color: rgba(0, 0, 0, 0.527);
+  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
+}
+
+.articulosInferiores {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 720px;
+  width: 90%;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.maderasRecicladas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 60px;
+  width: 100%;
+  background-color: black;
+  color: aliceblue;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  text-align: center;
+}
+
+.maderasRecicladas2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 60px;
+  width: 100%;
+  background-color: black;
+  color: aliceblue;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.textoArtMaderas {
+  width: 40%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+
+.maderaArticle {
+  width: 30%;
+  border-radius: 8px;
+}
+
+.artGuitarrasImg2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 80%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+
+.artGuitarrasImg3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 80%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.cajaReparaciones1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 700px;
+  background-color: none;
+}
+
+.cajaReparaciones2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 60%;
+  height: 80%;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.imgReparaciones1 {
+  width: 35%;
+  border-radius: 8px;
+}
+
+.imgReparaciones2 {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+
+.artReparaciones {
+  width: 25%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+
+.alinCarouselRep1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.alinCarouselRep {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 40%;
+  height: 450px;
+}
+
+.carouselRep {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 8px;
+}
+
+.imgCarouselRep1 {
+  position: relative;
+  z-index: 50;
+  -webkit-filter: brightness(50%) !important;
+          filter: brightness(50%) !important;
+  opacity: 100% !important;
+}
+
+.guitarTech {
+  position: relative;
+  bottom: 250px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  width: 100%;
+  padding: 15px;
+  height: 70px;
+  color: white;
+  z-index: 999999;
+  text-align: center;
+}
+
+.mantenimiento {
+  position: relative;
+  bottom: 250px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  width: 100%;
+  padding: 15px;
+  height: 70px;
+  color: white;
+  z-index: 999999;
+  text-align: center;
+}
+
+.modificaciones {
+  position: relative;
+  bottom: 250px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  width: 100%;
+  padding: 15px;
+  height: 70px;
+  color: white;
+  z-index: 999999;
+  text-align: center;
+}
+
+.cajaGridReparaciones1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.gridCalibracion {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 320px 1fr;
+      grid-template-rows: 320px 1fr;
+  gap: 5px 5px;
+  width: 60%;
+  margin-bottom: 50px;
+  background-color: none;
+  grid-auto-flow: row;
+      grid-template-areas: "porque-calibrar img" "explicacion lista";
+  background-color: white;
+  border-radius: 8px;
+}
+
+.porque-calibrar {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: porque-calibrar;
+}
+
+.porque-calibrar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: none;
+  color: white;
+  text-align: center;
+  border-radius: 8px;
+  padding-top: 60px;
+}
+
+.h3Reparaciones {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 120px;
+  padding-left: 100px;
+  padding-right: 100px;
+  background-color: black;
+  border-radius: 8px;
+}
+
+.img {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: img;
+}
+
+.img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  padding-top: 40px;
+}
+
+.img2 {
+  width: 60%;
+  border-radius: 8px;
+}
+
+.explicacion {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: explicacion;
+}
+
+.explicacion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: none;
+  padding: 50px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  text-align: justify;
+}
+
+.lista {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: lista;
+}
+
+.lista {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: none;
+  padding: 50px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+}
+
+.alinCarousel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.contenedorCarousel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 30%;
+}
+
+.carousel {
+  width: 100%;
+}
+
+.formulario1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.formulario2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 600px;
+  width: 80%;
+  background-color: black;
+  border-radius: 8px;
+}
+
+.textoContacto {
+  width: 38%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+.alinMail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.alineacionMensajeEnviado {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mensajeEnviado {
+  color: black;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 50px;
+  border-radius: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 8px;
+}
+
+.botonEnviar {
+  width: 80px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: white;
+}
+
+.alinCarouselVideo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 50px;
+  width: 100%;
+  background-color: rgba(7, 7, 7, 0.226);
+}
+
+.titleYt {
+  color: #c4302b;
+  text-align: center;
+}
+
+.carouselVideo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 600px;
+  width: 80%;
+}
+
+.contenedorCarouselVideo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  width: 42%;
+}
+
+.suscribir {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 25%;
+  height: 220px;
+  background-color: none;
+}
+
+.flechaLink {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.ico {
+  text-align: center;
+  width: 60px;
+  height: 60px;
+  -webkit-transform: translateY(0%);
+          transform: translateY(0%);
+  -webkit-filter: url("#goo");
+          filter: url("#goo");
+}
+
+.ico .circle {
+  background: black;
+  border-radius: 50%;
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+  -webkit-transform-origin: 0%;
+          transform-origin: 0%;
+}
+
+.ico .circle.circle-top {
+  height: 20px;
+  width: 25px;
+  -webkit-animation: blob-1-anim 3s cubic-bezier(0.77, 0, 0.175, 1) infinite;
+          animation: blob-1-anim 3s cubic-bezier(0.77, 0, 0.175, 1) infinite;
+  z-index: 0;
+  top: 0;
+}
+
+.ico .circle.circle-bottom {
+  height: 20px;
+  width: 25px;
+  -webkit-animation: blob-2-anim 3s cubic-bezier(0.77, 0, 0.175, 1) infinite;
+          animation: blob-2-anim 3s cubic-bezier(0.77, 0, 0.175, 1) infinite;
+  z-index: 9;
+  bottom: 0px;
+}
+
+.ico .st-arrow {
+  fill: white;
+  -webkit-animation: scrolly 3s cubic-bezier(0.77, 0, 0.175, 1) forwards infinite;
+          animation: scrolly 3s cubic-bezier(0.77, 0, 0.175, 1) forwards infinite;
+  -webkit-perspective: 9000px;
+          perspective: 9000px;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  -webkit-transform-origin: bottom;
+          transform-origin: bottom;
+}
+
+.svg {
+  z-index: 9;
+  position: relative;
+}
+
+@-webkit-keyframes blob-1-anim {
+  0% {
+    -webkit-transform: translateX(-50%) translateY(0);
+            transform: translateX(-50%) translateY(0);
+  }
+  14% {
+    -webkit-transform: translateX(-50%) translateY(-8px);
+            transform: translateX(-50%) translateY(-8px);
+  }
+  24% {
+    -webkit-transform: translateX(-50%) translateY(0);
+            transform: translateX(-50%) translateY(0);
+  }
+  100% {
+    -webkit-transform: translateX(-50%) translateY(0);
+            transform: translateX(-50%) translateY(0);
+  }
+}
+
+@keyframes blob-1-anim {
+  0% {
+    -webkit-transform: translateX(-50%) translateY(0);
+            transform: translateX(-50%) translateY(0);
+  }
+  14% {
+    -webkit-transform: translateX(-50%) translateY(-8px);
+            transform: translateX(-50%) translateY(-8px);
+  }
+  24% {
+    -webkit-transform: translateX(-50%) translateY(0);
+            transform: translateX(-50%) translateY(0);
+  }
+  100% {
+    -webkit-transform: translateX(-50%) translateY(0);
+            transform: translateX(-50%) translateY(0);
+  }
+}
+
+@-webkit-keyframes blob-2-anim {
+  0% {
+    -webkit-transform: scale(1) translate(-50%, 10px);
+            transform: scale(1) translate(-50%, 10px);
+  }
+  30% {
+    -webkit-transform: scale(1) translate(-50%, 10px);
+            transform: scale(1) translate(-50%, 10px);
+  }
+  70% {
+    -webkit-transform: scale(1) translate(-50%, 10px);
+            transform: scale(1) translate(-50%, 10px);
+  }
+  95% {
+    -webkit-transform: scale(1) translate(-50%, 26px);
+            transform: scale(1) translate(-50%, 26px);
+  }
+  100% {
+    -webkit-transform: scale(1) translate(-50%, 10px);
+            transform: scale(1) translate(-50%, 10px);
+  }
+}
+
+@keyframes blob-2-anim {
+  0% {
+    -webkit-transform: scale(1) translate(-50%, 10px);
+            transform: scale(1) translate(-50%, 10px);
+  }
+  30% {
+    -webkit-transform: scale(1) translate(-50%, 10px);
+            transform: scale(1) translate(-50%, 10px);
+  }
+  70% {
+    -webkit-transform: scale(1) translate(-50%, 10px);
+            transform: scale(1) translate(-50%, 10px);
+  }
+  95% {
+    -webkit-transform: scale(1) translate(-50%, 26px);
+            transform: scale(1) translate(-50%, 26px);
+  }
+  100% {
+    -webkit-transform: scale(1) translate(-50%, 10px);
+            transform: scale(1) translate(-50%, 10px);
+  }
+}
+
+@-webkit-keyframes scrolly {
+  0% {
+    -webkit-transform: translate3d(0, -150%, 0) rotateX(90deg) scale(0.5) skewX(3deg);
+            transform: translate3d(0, -150%, 0) rotateX(90deg) scale(0.5) skewX(3deg);
+  }
+  30% {
+    -webkit-transform: translate3d(0, 0, 0) rotateX(0deg) scale(1) skewX(0deg);
+            transform: translate3d(0, 0, 0) rotateX(0deg) scale(1) skewX(0deg);
+  }
+  70% {
+    -webkit-transform: translate3d(0, 0, 0) rotateX(0deg) scale(1) skewX(0deg);
+            transform: translate3d(0, 0, 0) rotateX(0deg) scale(1) skewX(0deg);
+  }
+  95% {
+    -webkit-transform: translate3d(0, 50%, 0) rotateX(-90deg) scale(0.5) skewX(-3deg);
+            transform: translate3d(0, 50%, 0) rotateX(-90deg) scale(0.5) skewX(-3deg);
+  }
+  100% {
+    -webkit-transform: translate3d(0, 50%, 0) rotateX(-90deg) scale(0.5) skewX(-3deg);
+            transform: translate3d(0, 50%, 0) rotateX(-90deg) scale(0.5) skewX(-3deg);
+  }
+}
+
+@keyframes scrolly {
+  0% {
+    -webkit-transform: translate3d(0, -150%, 0) rotateX(90deg) scale(0.5) skewX(3deg);
+            transform: translate3d(0, -150%, 0) rotateX(90deg) scale(0.5) skewX(3deg);
+  }
+  30% {
+    -webkit-transform: translate3d(0, 0, 0) rotateX(0deg) scale(1) skewX(0deg);
+            transform: translate3d(0, 0, 0) rotateX(0deg) scale(1) skewX(0deg);
+  }
+  70% {
+    -webkit-transform: translate3d(0, 0, 0) rotateX(0deg) scale(1) skewX(0deg);
+            transform: translate3d(0, 0, 0) rotateX(0deg) scale(1) skewX(0deg);
+  }
+  95% {
+    -webkit-transform: translate3d(0, 50%, 0) rotateX(-90deg) scale(0.5) skewX(-3deg);
+            transform: translate3d(0, 50%, 0) rotateX(-90deg) scale(0.5) skewX(-3deg);
+  }
+  100% {
+    -webkit-transform: translate3d(0, 50%, 0) rotateX(-90deg) scale(0.5) skewX(-3deg);
+            transform: translate3d(0, 50%, 0) rotateX(-90deg) scale(0.5) skewX(-3deg);
+  }
+}
+
+.linkYoutube {
+  width: 45%;
+  height: 60px;
+}
+
+.imgYt {
+  width: 100%;
+  height: 100%;
+}
+
+.iframeForm {
+  width: 35%;
+}
+
+.alinBoton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.botonContacto {
+  width: 100px;
+  height: 40px;
+  background-color: black;
+  border-radius: 10px;
+  margin-top: 25px;
+  margin-bottom: 8px;
+}
+
+.botonContacto2 {
+  text-decoration: none;
+  color: white;
+}
+
+.titleGaleria {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 30px;
+}
+
+.titleGalería2 {
+  background-color: white;
+  border-radius: 8px;
+  padding: 7px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media only screen and (max-width: 575px) {
+  .h1 {
+    display: none;
+  }
+  .contenido {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .h3Reparaciones {
+    border-radius: 0px;
+  }
+  .alinArtGuitarras {
+    margin-top: 0px;
+  }
+  .maderasRecicladas2 {
+    height: 75px !important;
+  }
+  .maderasRecicladas {
+    border-radius: 0px;
+  }
+  body {
+    background-image: url(../images/right-guitar-fondo-v.jpg);
+  }
+  .parrafoFooter {
+    display: none;
+  }
+  .alinFooter {
+    width: 100%;
+    margin-right: 70px;
+  }
+  .alinFooterLista {
+    gap: 15px;
+  }
+  .logoCompleto {
+    display: none;
+  }
+  .parrafoIndex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    height: 850px;
+    padding: 0px;
+  }
+  .parrafoIndexSolo {
+    width: 95%;
+    background-color: white;
+    border-radius: 8px;
+    padding: 7px;
+  }
+  .navbar-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+  }
+  .navbar {
+    margin-left: 50px;
+  }
+  .videoPresentación1 {
+    width: 95%;
+  }
+  .artGuitarrasImg1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    height: 900px;
+  }
+  .artGuitarras1 {
+    width: 100%;
+    border-radius: 0px;
+  }
+  .alinImgGuitarras1 {
+    width: 70%;
+  }
+  .alinFilaGuitarras {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    height: 1000px;
+  }
+  .imgTexto1 {
+    width: 70%;
+  }
+  .imgTexto2 {
+    width: 70%;
+  }
+  .imgTexto3 {
+    width: 70%;
+  }
+  .artGuitarrasImg2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    height: 600px;
+    width: 100%;
+  }
+  .maderaArticle {
+    width: 60%;
+  }
+  .textoArtMaderas {
+    width: 90%;
+  }
+  .artGuitarrasImg3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    height: 800px;
+    width: 100%;
+  }
+  .articulosInferiores {
+    height: 1600px;
+    width: 100%;
+    border-radius: 0px;
+  }
+  .cajaReparaciones2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    height: 630px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 0px;
+  }
+  .artReparaciones {
+    width: 90%;
+  }
+  .imgReparaciones1 {
+    width: 60%;
+  }
+  .alinCarouselRep {
+    width: 60%;
+  }
+  .gridCalibracion {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    width: 100%;
+    border-radius: 0px;
+  }
+  .guitarTech {
+    bottom: 180px;
+    font-size: 16px;
+  }
+  .mantenimiento {
+    bottom: 180px;
+    font-size: 16px;
+  }
+  .modificaciones {
+    bottom: 180px;
+    font-size: 16px;
+  }
+  .contenedorCarousel {
+    width: 70%;
+  }
+  .carouselVideo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    height: 800px;
+  }
+  .contenedorCarouselVideo {
+    width: 100%;
+  }
+  .linkYoutube {
+    width: 53%;
+    height: 80px;
+  }
+  .suscribir {
+    width: 85%;
+  }
+  .formulario2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    height: 800px;
+    width: 100%;
+    border-radius: 0px;
+  }
+  .textoContacto {
+    width: 80%;
+    text-align: center;
+  }
+  .imagenEstuche {
+    width: 80%;
+  }
+  .alinArtGuitarras {
+    width: 100%;
+  }
+  .articuloGuitarras1 {
+    width: 100%;
+  }
+  .iframeForm {
+    width: 95%;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .h1 {
+    display: none;
+  }
+  .parrafoFooter {
+    display: none;
+  }
+  .alinFooter {
+    width: 55%;
+  }
+  .parrafoIndex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+  }
+  .parrafoIndexSolo {
+    width: 80%;
+  }
+  .navbar-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+  }
+  .navbar {
+    margin-left: 50px;
+  }
+  .videoPresentación1 {
+    width: 80%;
+  }
+  .artGuitarrasImg1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    height: 700px;
+  }
+  .artGuitarras1 {
+    width: 80%;
+  }
+  .alinImgGuitarras1 {
+    width: 60%;
+  }
+  .alinFilaGuitarras {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    height: 1000px;
+  }
+  .imgTexto1 {
+    width: 50%;
+  }
+  .imgTexto2 {
+    width: 50%;
+  }
+  .imgTexto3 {
+    width: 50%;
+  }
+  .artGuitarrasImg2 {
+    height: 400px;
+    width: 95%;
+  }
+  .maderaArticle {
+    width: 50%;
+  }
+  .artGuitarrasImg3 {
+    width: 90%;
+  }
+  .articulosInferiores {
+    height: 1150px;
+  }
+  .cajaReparaciones2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    height: 600px;
+  }
+  .artReparaciones {
+    width: 80%;
+  }
+  .imgReparaciones1 {
+    width: 50%;
+  }
+  .alinCarouselRep {
+    width: 60%;
+  }
+  .gridCalibracion {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    width: 95%;
+  }
+  .guitarTech {
+    bottom: 220px;
+  }
+  .mantenimiento {
+    bottom: 220px;
+  }
+  .modificaciones {
+    bottom: 220px;
+  }
+  .contenedorCarousel {
+    width: 60%;
+  }
+  .carouselVideo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    height: 800px;
+  }
+  .contenedorCarouselVideo {
+    width: 80%;
+  }
+  .linkYoutube {
+    width: 50%;
+    height: 80px;
+  }
+  .suscribir {
+    width: 80%;
+  }
+  .formulario2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    height: 700px;
+  }
+  .textoContacto {
+    width: 80%;
+    text-align: center;
+  }
+  .imagenEstuche {
+    width: 70%;
+  }
+  .iframeForm {
+    width: 70%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .h1 {
+    -webkit-transform: translate(-60%);
+            transform: translate(-60%);
+  }
+  .parrafoFooter {
+    display: none;
+  }
+  .alinFooter {
+    width: 55%;
+  }
+  .parrafoIndex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+  }
+  .parrafoIndexSolo {
+    width: 70%;
+  }
+  .navbar-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+  }
+  .navbar {
+    margin-left: 50px;
+  }
+  .videoPresentación1 {
+    width: 60%;
+  }
+  .artGuitarrasImg1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    height: 650px;
+  }
+  .artGuitarras1 {
+    width: 70%;
+  }
+  .alinImgGuitarras1 {
+    width: 50%;
+  }
+  .artGuitarrasImg2 {
+    height: 400px;
+  }
+  .maderaArticle {
+    width: 50%;
+  }
+  .articulosInferiores {
+    height: 1000px;
+  }
+  .imgReparaciones1 {
+    width: 45%;
+  }
+  .alinCarouselRep {
+    width: 55%;
+  }
+  .gridCalibracion {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    width: 90%;
+  }
+  .guitarTech {
+    bottom: 250px;
+  }
+  .mantenimiento {
+    bottom: 250px;
+  }
+  .modificaciones {
+    bottom: 250px;
+  }
+  .contenedorCarousel {
+    width: 45%;
+  }
+  .carouselVideo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    height: 800px;
+  }
+  .contenedorCarouselVideo {
+    width: 60%;
+  }
+  .linkYoutube {
+    width: 40%;
+    height: 80px;
+  }
+  .suscribir {
+    width: 80%;
+  }
+  .formulario2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    height: 700px;
+  }
+  .textoContacto {
+    width: 80%;
+    text-align: center;
+  }
+  .imagenEstuche {
+    width: 60%;
+  }
+  .iframeForm {
+    width: 60%;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .h1 {
+    -webkit-transform: translate(-60%);
+            transform: translate(-60%);
+  }
+  .columnaNavbar {
+    width: 70%;
+  }
+  .parrafoIndex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+  }
+  .parrafoIndexSolo {
+    width: 70%;
+  }
+  .artGuitarras1 {
+    width: 50%;
+  }
+  .artGuitarrasImg2 {
+    height: 400px;
+  }
+  .maderaArticle {
+    width: 40%;
+  }
+  .articulosInferiores {
+    height: 900px;
+  }
+  .alinCarouselRep {
+    width: 50%;
+  }
+  .guitarTech {
+    bottom: 250px;
+  }
+  .mantenimiento {
+    bottom: 250px;
+  }
+  .modificaciones {
+    bottom: 250px;
+  }
+  .h3Reparaciones {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+  .imagenEstuche {
+    width: 50%;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
